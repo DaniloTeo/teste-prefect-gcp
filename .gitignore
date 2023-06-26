@@ -1,2 +1,2 @@
-./prefect-env/**
+prefect-env/
 .env

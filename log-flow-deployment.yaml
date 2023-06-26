@@ -1,0 +1,40 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl'
+###
+name: log-deployment
+description: null
+version: e2179e16c9f72ee2d0d21c2971859e49
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl
+manifest_path: null
+storage: null
+path: /Users/suprisul/Documents/eng/pam
+entrypoint: poc/log_flow.py:etl
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-06-26T15:47:22.167353+00:00'
